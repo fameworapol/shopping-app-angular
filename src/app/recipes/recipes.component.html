@@ -7,10 +7,6 @@
     <ng-template #infoText>
        <p>Please Select Recipe.</p>
     </ng-template> -->
-    @if (selectedRecipe) {
-      <app-recipe-detail [recipe]="selectedRecipe"></app-recipe-detail>
-    }@else {
-      <p>Please Select Recipe.</p>
-    }
+      <router-outlet></router-outlet>
   </div>
 </div>

@@ -2,12 +2,13 @@
 <div class="container">
   <div class=" row">
     <div class=" col-md-12">
-      @if (loadedFeature == 'recipe') {
+      <!-- @if (loadedFeature == 'recipe') {
       <app-recipes></app-recipes>
       }
       @if (loadedFeature !== 'recipe') {
       <app-shoping-list></app-shoping-list>
-      }
+      } -->
+      <router-outlet></router-outlet>
     </div>
   </div>
 </div>
